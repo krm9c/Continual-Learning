@@ -1,0 +1,22 @@
+{
+    "D_in":                    3,
+    "H":                     100,
+    "D_out":                 100,
+    "total_runs":              2,
+    "total_samples":          50,
+    "learning_rate":        1e-4,
+    "kappa":                 300,
+    "zeta":                    2,
+    "N_meta":                150,   
+    "N_grad":                  2,
+    "N":                     300,
+    "len_exp_replay":      20000,
+    "n_new_points":            1,
+    "gamma":                   1,
+    "eta":                     1,
+    "problem":      "regression",
+    "network" :           "fcnn",
+    "batch_size":             32,
+    "data_id":            "sine",
+    "task_wise":               0
+}

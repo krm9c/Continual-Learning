@@ -1,0 +1,25 @@
+Jobid: 325920
+qsub -n 1 -t 6:00:00 -q gpu_a100 -I
+Wed Mar 10 20:56:43 2021 +0000 (UTC) submitted with cwd set to: /home/kraghavan/Projects/NashMCL/core
+jobid 325920 submitted from terminal /dev/pts/15
+Wed Mar 10 20:57:19 2021 +0000 (UTC) 
+Wed Mar 10 20:57:19 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'gpu06' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.325920' '--jobid' '325920' '--cwd' '/home/kraghavan/Projects/NashMCL/core' '--env' 'COBALT_JOBID=325920' '/bin/sleep' '21600'
+Wed Mar 10 20:57:19 2021 +0000 (UTC) 
+Wed Mar 10 20:57:19 2021 +0000 (UTC) Environment:
+Wed Mar 10 20:57:19 2021 +0000 (UTC) SHELL=/bin/bash
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpNaUYzT
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_PARTNAME=gpu06
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_JOBID=325920
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_STARTTIME=1615409811
+Wed Mar 10 20:57:19 2021 +0000 (UTC) LOGNAME=kraghavan
+Wed Mar 10 20:57:19 2021 +0000 (UTC) USER=kraghavan
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_ENDTIME=1615431411
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Wed Mar 10 20:57:19 2021 +0000 (UTC) HOME=/home/kraghavan
+Wed Mar 10 20:57:19 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Wed Mar 10 20:57:19 2021 +0000 (UTC) 
+Wed Mar 10 20:57:19 2021 +0000 (UTC) Info: stdin received from /dev/null
+Wed Mar 10 20:57:19 2021 +0000 (UTC) Info: stdout sent to /home/kraghavan/Projects/NashMCL/core/325920.output
+Wed Mar 10 20:57:19 2021 +0000 (UTC) Info: stderr sent to /home/kraghavan/Projects/NashMCL/core/325920.error
+Wed Mar 10 20:57:19 2021 +0000 (UTC) 
+Thu Mar 11 00:50:23 2021 +0000 (UTC) Info: user delete requested with signal SIGTERM by user kraghavan
