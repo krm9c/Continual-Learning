@@ -1,0 +1,25 @@
+Jobid: 10020253
+qsub -A NuQMC -q full-node -t 12:00:00 -n 1 split_CIFAR100_incremental_task_DPMCL.sh
+Fri May 21 21:51:52 2021 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts
+jobid 10020253 submitted from terminal /dev/pts/52
+Sun May 23 01:48:54 2021 +0000 (UTC) 
+Sun May 23 01:48:54 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu09' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10020253' '--jobid' '10020253' '--cwd' '/gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts' '--env' 'COBALT_JOBID=10020253' '/gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/split_CIFAR100_incremental_task_DPMCL.sh'
+Sun May 23 01:48:54 2021 +0000 (UTC) 
+Sun May 23 01:48:54 2021 +0000 (UTC) Environment:
+Sun May 23 01:48:54 2021 +0000 (UTC) SHELL=/bin/zsh
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpCVKJIt
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_PARTNAME=thetagpu09
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_JOBID=10020253
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_STARTTIME=1621734525
+Sun May 23 01:48:54 2021 +0000 (UTC) LOGNAME=kraghavan
+Sun May 23 01:48:54 2021 +0000 (UTC) USER=kraghavan
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_ENDTIME=1621777725
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Sun May 23 01:48:54 2021 +0000 (UTC) HOME=/home/kraghavan
+Sun May 23 01:48:54 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Sun May 23 01:48:54 2021 +0000 (UTC) 
+Sun May 23 01:48:54 2021 +0000 (UTC) Info: stdin received from /dev/null
+Sun May 23 01:48:54 2021 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020253.output
+Sun May 23 01:48:54 2021 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020253.error
+Sun May 23 01:48:54 2021 +0000 (UTC) 
+Sun May 23 13:48:57 2021 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

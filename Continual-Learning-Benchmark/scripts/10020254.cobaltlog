@@ -1,0 +1,25 @@
+Jobid: 10020254
+qsub -A NuQMC -q full-node -t 12:00:00 -n 1 split_CIFAR100_incremental_domain_DPMCL.sh
+Fri May 21 21:52:00 2021 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts
+jobid 10020254 submitted from terminal /dev/pts/52
+Sun May 23 01:49:04 2021 +0000 (UTC) 
+Sun May 23 01:49:04 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu08' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10020254' '--jobid' '10020254' '--cwd' '/gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts' '--env' 'COBALT_JOBID=10020254' '/gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/split_CIFAR100_incremental_domain_DPMCL.sh'
+Sun May 23 01:49:04 2021 +0000 (UTC) 
+Sun May 23 01:49:04 2021 +0000 (UTC) Environment:
+Sun May 23 01:49:04 2021 +0000 (UTC) SHELL=/bin/zsh
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmp7gtKE_
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_PARTNAME=thetagpu08
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_JOBID=10020254
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_STARTTIME=1621734535
+Sun May 23 01:49:04 2021 +0000 (UTC) LOGNAME=kraghavan
+Sun May 23 01:49:04 2021 +0000 (UTC) USER=kraghavan
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_ENDTIME=1621777735
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Sun May 23 01:49:04 2021 +0000 (UTC) HOME=/home/kraghavan
+Sun May 23 01:49:04 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Sun May 23 01:49:04 2021 +0000 (UTC) 
+Sun May 23 01:49:04 2021 +0000 (UTC) Info: stdin received from /dev/null
+Sun May 23 01:49:04 2021 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020254.output
+Sun May 23 01:49:04 2021 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020254.error
+Sun May 23 01:49:04 2021 +0000 (UTC) 
+Sun May 23 13:49:08 2021 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

@@ -1,0 +1,25 @@
+Jobid: 10020258
+qsub -A NuQMC -q single-gpu -t 00:59:00 -n 1 -I
+Fri May 21 22:04:56 2021 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts
+jobid 10020258 submitted from terminal /dev/pts/52
+Fri May 21 22:05:16 2021 +0000 (UTC) 
+Fri May 21 22:05:16 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu05-gpu5' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10020258' '--jobid' '10020258' '--cwd' '/gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts' '--env' 'COBALT_JOBID=10020258' '/bin/sleep' '3540'
+Fri May 21 22:05:16 2021 +0000 (UTC) 
+Fri May 21 22:05:16 2021 +0000 (UTC) Environment:
+Fri May 21 22:05:16 2021 +0000 (UTC) SHELL=/bin/zsh
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmp6ytKW_
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_PARTNAME=thetagpu05-gpu5
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_JOBID=10020258
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_STARTTIME=1621634701
+Fri May 21 22:05:16 2021 +0000 (UTC) LOGNAME=kraghavan
+Fri May 21 22:05:16 2021 +0000 (UTC) USER=kraghavan
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_ENDTIME=1621638241
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Fri May 21 22:05:16 2021 +0000 (UTC) HOME=/home/kraghavan
+Fri May 21 22:05:16 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Fri May 21 22:05:16 2021 +0000 (UTC) 
+Fri May 21 22:05:16 2021 +0000 (UTC) Info: stdin received from /dev/null
+Fri May 21 22:05:16 2021 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020258.output
+Fri May 21 22:05:16 2021 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kraghavan/Projects/Continual/Continual-Learning-Benchmark/scripts/10020258.error
+Fri May 21 22:05:16 2021 +0000 (UTC) 
+Fri May 21 22:30:00 2021 +0000 (UTC) Info: user delete requested with signal SIGTERM by user kraghavan
